@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+.container-top-menu {
+    background-color: #0CA4EF;
+    height: 80px;
+}
+
+.content-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.container-menu-top ul li {
+    margin-left: 0;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.container-menu-top a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.container-menu-top:active {
+    color: #FFFFFF;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.button_SolicitarCredito {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 44px;
+    border: none;
+    background: #212121;
+    border-radius: 16px;
+}
+
+.button_MinhaNegociação {
+    color: #0CA4EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 215px;
+    height: 44px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.button_Login {
+    color: #0CA4EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 44px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.top-info {
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.foother {
+    background-color: #212121;
+    color: #FFFFFF;
+}
+
+.container-foother {
+    margin-left: 40px;
+}
+
+.container-info {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container-andress {
+    width: 210px;
+}
+
+.title-info {
+    margin-top: 36px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+
+}
+
+.content-info {
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.icon {
+    margin-right: 11px;
+}
+
+.content-info li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.container-info-institutional {
+    margin: 36px 0px 5px 58px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-institutional-info {
+    margin-top: 16px;
+}
+
+.list-institutional-info li {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #0CA4EF;
+    margin-top: 10px;
+    padding-bottom: 5px;
+
+}
+
+.list-institutional-info li span {
+    color: #FFFFFF;
+}
+
+hr {
+    width: 208px;
+    margin: 0px;
+    color: #0CA4EF;
+}
+
+.container-investor {
+    margin-top: 120px;
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.container-anbima {
+    margin-top: 80px;
+}
+
+.img-anbima {
+    margin-top: 20px;
+}
+
+.container-baseboard {
+    margin-top: 80px;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.content-baseboard {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+}
+
+.company-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.content-copyright {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.content-privacyPolicy {
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.content-cnpj {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.container-socialMidia {
+    display: flex;
+    gap: 16.5px;
+}
