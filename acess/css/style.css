@@ -10,14 +10,15 @@ body {
 
 .container-top-menu {
     background-color: #0CA4EF;
-    height: 80px;
+    padding: 26.84px;
 }
 
 .content-menu {
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+
 }
 
 .container-logo {
@@ -26,68 +27,82 @@ body {
     gap: 16px;
 }
 
+.container-menu-top ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+
+
+}
+
+
 .container-menu-top ul li {
-    margin-left: 0;
     display: inline-block;
-    margin-left: 20px;
-    font-size: 14px;
+    font-size: 1em;
+
 }
 
-.container-menu-top a {
+.container-menu-top ul li a {
     text-decoration: none;
+    font-size: 1em;
     color: #FFFFFF;
 }
 
-.container-menu-top:active {
+.container-menu-top ul li a:active {
     color: #FFFFFF;
 }
 
-.buttons {
+.conteneiner-buttons {
     display: flex;
-    align-items: center;
-    gap: 5px;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.content-buttons li {
+    float: left;
+    margin-left: 15px;
+    font-weight: 600;
     font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
 }
 
-.button_SolicitarCredito {
+
+
+.solicitarCredito {
     color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 165px;
-    height: 44px;
-    border: none;
-    background: #212121;
+    background-color: #212121;
     border-radius: 16px;
+    padding: 10px;
+
+
 }
 
-.button_MinhaNegociação {
+.minhaNegociação {
     color: #0CA4EF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 215px;
-    height: 44px;
-    border: none;
-    background: #FFFFFF;
     border-radius: 16px;
+    padding: 10px;
+    background-color: #FFFFFF;
+
 }
 
-.button_Login {
+.login {
     color: #0CA4EF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100px;
-    height: 44px;
-    border: none;
-    background: #FFFFFF;
     border-radius: 16px;
+    padding: 10px;
+    background-color: #FFFFFF;
 }
 
 .top-info {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
 
@@ -135,6 +150,7 @@ body {
 .icon {
     margin-right: 11px;
 }
+
 .content-info li {
     list-style-type: none;
     margin-top: 15px;
@@ -239,3 +255,5 @@ hr {
     display: flex;
     gap: 16.5px;
 }
+
+@media screen and (max-widht:400px) {}
