@@ -7,253 +7,41 @@
 body {
     font-family: "Poppins";
 }
-
-.container-top-menu {
-    background-color: #0CA4EF;
-    padding: 26.84px;
+.navbar {
+    background: #0CA4EF
 }
 
-.content-menu {
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.navbar-nav a {
+    color: #ffffff;
 }
-
-.container-logo {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
+.btn-colorSc{
+    color: #ffffff;
 }
-
-.container-menu-top ul {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-    gap: 20px;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-
-
+.btn-bg-white{
+    background-color: #ffffff;
 }
-
-
-.container-menu-top ul li {
-    display: inline-block;
-    font-size: 1em;
-
+.btn-bg-white:hover{
+    background-color: #ffffff;
+    color:#0CA4EF
 }
-
-.container-menu-top ul li a {
-    text-decoration: none;
-    font-size: 1em;
-    color: #FFFFFF;
+.btn-colorBlue{
+    color:#0CA4EF
 }
-
-.container-menu-top ul li a:active {
-    color: #FFFFFF;
+.header-info{
+    background-color: #ffffff;
 }
-
-.conteneiner-buttons {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-
-}
-
-.content-buttons li {
-    float: left;
-    margin-left: 15px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-}
-
-
-
-.solicitarCredito {
-    color: #FFFFFF;
-    background-color: #212121;
-    border-radius: 16px;
-    padding: 10px;
-
-
-}
-
-.minhaNegociação {
-    color: #0CA4EF;
-    border-radius: 16px;
-    padding: 10px;
-    background-color: #FFFFFF;
-
-}
-
-.login {
-    color: #0CA4EF;
-    border-radius: 16px;
-    padding: 10px;
-    background-color: #FFFFFF;
-}
-
-.top-info {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .foother {
     background-color: #212121;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-
-.container-foother {
-    margin-left: 40px;
-}
-
-.container-info {
+.foother-info{
     margin-top: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
 }
-
-.container-andress {
-    width: 210px;
-}
-
-.title-info {
-    margin-top: 36px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.2px;
-
-}
-
-.content-info {
-    margin-top: 4px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    text-align: justify;
-}
-
-.icon {
-    margin-right: 11px;
-}
-
-.content-info li {
+.foother-info-contact-lis ul{
+    margin: 0;
+    padding: 0;
     list-style-type: none;
-    margin-top: 15px;
 }
-
-.container-info-institutional {
-    margin: 36px 0px 5px 58px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.foother-info-address-list{
+    width: 200px;
 }
-
-.list-institutional-info {
-    margin-top: 16px;
-}
-
-.list-institutional-info li {
-
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-    color: #0CA4EF;
-    margin-top: 10px;
-    padding-bottom: 5px;
-
-}
-
-.list-institutional-info li span {
-    color: #FFFFFF;
-}
-
-hr {
-    width: 208px;
-    margin: 0px;
-    color: #0CA4EF;
-}
-
-.container-investor {
-    margin-top: 120px;
-    margin-right: 70px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
-.container-anbima {
-    margin-top: 80px;
-}
-
-.img-anbima {
-    margin-top: 20px;
-}
-
-.container-baseboard {
-    margin-top: 80px;
-    font-size: 14px;
-    line-height: 21px;
-    margin-bottom: 24px;
-
-}
-
-.content-baseboard {
-    display: flex;
-    justify-content: space-between;
-    gap: 25px;
-    align-items: center;
-}
-
-.company-name {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-}
-
-.content-copyright {
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.content-privacyPolicy {
-    text-decoration: underline;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-}
-
-.content-cnpj {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: 0.2px;
-}
-
-.container-socialMidia {
-    display: flex;
-    gap: 16.5px;
-}
-
-@media screen and (max-widht:400px) {}
